@@ -103,7 +103,7 @@ public class HatenaBookmark {
 		if( query == null ) throw new IllegalArgumentException("Method argument 'query' is null.") ;
 		if( users <  0    ) throw new IllegalArgumentException("Method argument 'users' is less than zero.") ;
 
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss+09:00", Locale.JAPAN);
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.JAPAN);
 		ArrayList<HatenaBookmarkEntry> entries = new ArrayList<HatenaBookmarkEntry>();
 
 		try {
