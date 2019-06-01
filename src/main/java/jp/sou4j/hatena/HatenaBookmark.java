@@ -40,9 +40,9 @@ import org.xml.sax.SAXException;
  */
 public class HatenaBookmark {
 
-	private static final String URL_OF_SEARCH_TAG   = "http://b.hatena.ne.jp/search/tag?safe={0}&q={1}&users={2}&mode=rss";
-	private static final String URL_OF_ENTRY_COUNT  = "http://api.b.st-hatena.com/entry.count?url={0}";
-	private static final String URL_OF_ENTRY_COUNTS = "http://api.b.st-hatena.com/entry.counts";
+	private static final String URL_OF_SEARCH_TAG   = "https://b.hatena.ne.jp/search/tag?safe={0}&q={1}&users={2}&mode=rss";
+	private static final String URL_OF_ENTRY_COUNT  = "https://api.b.st-hatena.com/entry.count?url={0}";
+	private static final String URL_OF_ENTRY_COUNTS = "https://api.b.st-hatena.com/entry.counts";
 
 	/**
 	 * <p>プロキシのホスト名</p>
